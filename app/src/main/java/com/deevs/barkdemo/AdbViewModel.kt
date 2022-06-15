@@ -11,9 +11,8 @@ class AdbViewModel : ViewModel() {
 
     companion object {
         const val COMMAND_LIST_PACKAGES = "pm list packages -e"
-        const val COMMAND_LIST_USERS = "pm list users"
-        const val COMMAND_DISABLE_YOUTUBE = "pm disable com.google.android.youtube/com.google.android.apps.youtube.app.application.Shell_HomeActivity"
-        const val COMMAND_DISABLE_CAMERA = "pm disable com.sec.android.app.camera/.Camera"
+        const val COMMAND_DISABLE_YOUTUBE = "pm disable com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity"
+        const val COMMAND_DISABLE_CAMERA = "pm disable com.google.android.GoogleCamera/com.android.camera.CameraLauncher"
     }
 
     fun runTest() {
