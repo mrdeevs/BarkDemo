@@ -1,5 +1,7 @@
 # BarkDemo -> Disable the default Camera app on the device
 
+## Class files: AdbViewModel.kt, DisableCameraActivity.kt
+
 ## Process :
 
 - Investigated PackageManager here: https://developer.android.com/reference/android/content/pm/PackageManager#public-methods
